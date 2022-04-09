@@ -777,7 +777,7 @@ if(isset($_POST['submit'])){
     " Website Message : " . $body;
     if($name!='' &&  $email!='' && $body!='' && $subject!=''){
       mail($to,$subject, $body, $headers);
-      echo"<script type='text/javascript'>alert('Your message has been sent successfully');
+      echo"<script type='text/javascript'>alert('Your message has been sent successfully '$to);
       window.location.href='index.php';
       </script>";
   }
