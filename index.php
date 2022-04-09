@@ -757,7 +757,7 @@
             </div>
 
           </div>
-   <?php
+          <?php
 if(isset($_POST['submit'])){
     $to = "info.ionwatertreatment@gmail.com";
 
@@ -786,13 +786,15 @@ if(isset($_POST['submit'])){
   }
 }
     	
- ?>  
+   
+
+?>
 
 
 
           <div class="col-lg-8 mt-5 mt-lg-0">
 
-            <form  method="post" role="form" class="php-email-form">
+            <form  method="POST" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -812,7 +814,7 @@ if(isset($_POST['submit'])){
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div> -->
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button name="submit" type="submit">Send Message</button></div>
             </form>
 
           </div>
