@@ -759,7 +759,7 @@
           </div>
           <?php
 if(isset($_POST['submit'])){
-    $to = "info.ionwatertreatment@gmail.com";
+    $to = "puneetdabral2000@gmail.com";
 
 
 
